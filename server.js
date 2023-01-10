@@ -36,6 +36,7 @@ app.use(express.json()) //Parse json bodies
 //Routes
 
 //Index route
+//People route
 app.get("/people", async (req, res) => {
   try {
     //Send all people
